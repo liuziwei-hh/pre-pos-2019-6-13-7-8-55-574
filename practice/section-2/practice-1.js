@@ -1,8 +1,8 @@
 'use strict';
 
 function countSameElements(collection) {
-  var result = [];
- var m = new Map();
+  const result = [];
+ const m = new Map();
   for (var i=0;i<collection.length;i++){
     if (m.get(collection[i])==null){
       m.set(collection[i],1);
